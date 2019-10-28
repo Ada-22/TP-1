@@ -205,29 +205,6 @@ opacity: 1 ;
   position: relative;
   display: inline-block;
   }
-     
-.content-image1:hover, .content-image2:hover, .content-image3:hover{
-  visibility: hidden;
- transition: all 0.3s;
-  }
-.content a.button{
-    position: absolute;
-    padding: 2% 8%;
-    background-color:white;
-    border-radius: 16px;
-    color:black;
-    text-align: center;
-    font-size: 90%;
-    justify-content: center;
-    visibility: visible;
-    width:50%;
-    margin:-38% 25%;
-    line-height: 18px;
-  }
-.content a.button:hover{
-    background-color:#fa7855;
-    transition: all 0.3s;
-  }
 
  div> .content-video{
   width: 64%;
