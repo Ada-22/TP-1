@@ -34,7 +34,7 @@ header{
   height: auto;
 }
 .main-title{
-   font-family: "Indie Flower", cursive;
+  font-family: "Indie Flower", cursive;
   font-size: 50px;
   color: #fa7855;
   font-weight: bold;
@@ -44,34 +44,29 @@ nav.surf{
   margin:0;
 }
 .menu{
-margin: 5px auto 10px;
-padding:2px 100px;
-border-radius:16px;
-font-size: 16px;
-font-weight: bold;
-background-color: #fa7855;
-width:80%;
-color:white;
-display:block;
-visibility:hidden;
+  margin: 5px auto 10px;
+  padding:2px 100px;
+  border-radius:16px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fa7855;
+  width:80%;
+  color:white;
+  display:block;
+  visibility:hidden;
   }
 .span.fa-bars{
-display:inline;
-font-size:14px;
-text-align:left;
-padding-right:10px;
-}
-  
+  display:inline;
+  font-size:14px;
+  text-align:left;
+  padding-right:10px;
+} 
 .menu:hover{
-background-color: #FF4500;
-transition: all 0.3s;
-
+  background-color: #FF4500;
+  transition: all 0.3s;
 }
-
 .menu-list > li{
   display: inline-block;
-  
-
 }
 .menu-list > li > a{
   display: block;
@@ -81,28 +76,21 @@ transition: all 0.3s;
   font-weight: bold;
   font-size: 24px;
   margin:0; 
-  
 }
-
 .fa-caret-down{
   padding-left: 10px;
   font-size: 14px;
 }
 .menu-list > li.home > a{
-
   color: #fa7855;
 }
-
 .menu-list > li.home > a:hover{ 
-
   color:#696969;
-}
-    
+}  
 .menu-list > li > a:hover{ 
   color: #fa7855;
   transition: all 0.3s;
 }
-
 .menu-list > li.meals > a{
   position: relative;
   line-height: 20px;
@@ -116,11 +104,10 @@ transition: all 0.3s;
   visibility: hidden;
   opacity: 0;
   transition: opacity 1.5s;
-  }
-
+}
 .menu-list li:hover .meals-list{
-visibility: visible;
-opacity: 1 ;
+  visibility: visible;
+  opacity: 1 ;
 }
 .meals-list > li > a{
   color:#696969;
@@ -137,7 +124,6 @@ opacity: 1 ;
   overflow: hidden;
   margin:0;
   }
-  
 .carrousel-item1, .carrousel-item2, .carrousel-item3, .carrousel-item4{
  width: 24%;
  margin:0;
@@ -164,36 +150,30 @@ opacity: 1 ;
   color: white;
   font-weight: bold;
   font-size:90%;
-  }
-   
+} 
 .carrousel-item3 .caption{
   font-size:16px;
   color: #800000;
   background-color:rgba(169, 169, 169, 0.5)
-    
-  }
-  
+}
 .carrousel-item4:hover .caption,.carrousel-item3:hover .caption {
  bottom:4px;
-    
-  }
+}
 .caption p.date{
  display:inline;
  font-size:12px;
  text-align: left;
  font-weight: bold;
- margin-bottom:16px;
-  }
-  
-  
+ padding-bottom:16px;
+}
 .caption p.description{
   padding-top: 10px;
   font-size: 16px;
-  }
+}
 .content{
   max-width:900px;
   margin: 30px auto;
-  }
+}
 .content img{
   border-radius:16px;
   width:100%;
